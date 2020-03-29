@@ -1,0 +1,57 @@
+/* Move down content because we have a fixed navbar that is 3.5rem tall */
+body {
+  padding-top: 3.5rem;
+}
+.img-fluid {
+  width: 100%;
+  height: auto;
+}
+p.normal {
+  font-family: "Lucida Console", Courier, monospace;
+  font-variant: normal;
+  font-weight: bold;
+  color: #775724;
+  text-align: center;
+}
+button {
+  color: #ffeffc;
+  background-color: #775e46;
+  border: 2px solid #775e46;
+}
+
+.static {
+  font-family: Impact, Charcoal, sans-serif;
+  font-variant: small-caps;
+  color: #775724;
+  text-align: center;
+  font-size: 25px;
+  letter-spacing: 3px;
+}
+.container {
+  position: center;
+  text-align: center;
+  color: white;
+
+}
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+
+  font-family: "Copperplate Gothic Bold", Courier, monospace;
+  font-variant: small-caps;
+  color: #ffeffc;
+  text-align: center;
+  font-size: 50px;
+  letter-spacing: -3px;
+  line-height: 0.8;
+}
+.letter{
+  font-variant: normal;
+  font-family: "Freestyle Script", Courier, monospace;
+  letter-spacing: -1px;
+  font-size: 40px;
+  line-height: 0.6;
+}
+

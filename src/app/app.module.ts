@@ -1,7 +1,6 @@
 import { NgModule } from '@angular/core';
 import {BrowserModule} from '@angular/platform-browser';
 import {Routes, RouterModule} from '@angular/router';
-
 import { AppComponent } from './app.component';
 import { DateComponent } from './menu/date.component';
 import { HomeComponent } from './home/home.component';
@@ -19,7 +18,7 @@ const appRoutes: Routes = [
   {path: 'home' , component : HomeComponent},
   {path: 'news' , component : NewsComponent},
   {path: 'contact' , component : ContactComponent},
-  {path: '**' , component : NotFoundComponent},
+  {path: 'notfound' , component : NotFoundComponent},
 ];
 
 @NgModule({
@@ -34,7 +33,7 @@ const appRoutes: Routes = [
   ],
   imports: [
     BrowserModule,
-    RouterModule.forRoot( appRoutes )
+    RouterModule.forRoot( appRoutes ),
   ],
   providers: [],
   bootstrap: [AppComponent]
